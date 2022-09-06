@@ -41,12 +41,12 @@ if(isset($_POST['refresh-meme'])) {
         <div id="button-container">
             <div class="button-top">
                 <form method="post">
-                    <input type="submit" name="refresh-meme" value="Make More MEME" class="btn">    
+                    <input type="submit" name="refresh-meme" value="Next MEME" class="btn">    
                 </form>
             </div>
             <div class="button-bottom">
                 <form method="post" action="upload.php" enctype="multipart/form-data" id="upload_action">
-                    <label for="input" class="btn">Upload</label>
+                    <label for="input" class="btn">Upload MEME</label>
                     <input type="file" name="file" id="input"><input type="submit" id="input"> 
                     <script type="text/javascript">
                         document.getElementById("upload_action").onchange = function() {
