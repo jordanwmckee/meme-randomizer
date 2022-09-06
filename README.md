@@ -2,7 +2,7 @@
  
 ## Description
 
-This is a simple website that allows users to upload a programming meme, or view existing memes on the page.
+This is a simple website that allows users to upload a programming meme, or randomly view existing uploaded memes.
 
 ## Viewing Live Site
 
