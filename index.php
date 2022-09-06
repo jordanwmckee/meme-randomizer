@@ -30,13 +30,13 @@ if(isset($_POST['refresh-meme'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Memer</title>
+    <title>Programming Memes</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="container">
         <div id="image-shower">
-            <img id="meme" src="./memes/<?php echo $meme ?>" alt="Press for a MEMER">
+            <img id="meme" src="./memes/<?php echo $meme ?>" alt="unable to view meme :(">
         </div>
         <div id="button-container">
             <div class="button-top">
